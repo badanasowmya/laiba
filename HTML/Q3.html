@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../CSS/Q3Styles.css">        
+    </head> 
+
+    <body>
+
+        <div class="container">
+
+            <div class="textdiv"></div>
+
+            <div >
+                <h1>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "So you not gonna leave without finding out ? It&apos;s your last chance you can still go and save yourself !"]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1> 
+            </div>
+
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            </div>
+
+        </div>
+
+        <script>
+
+            function nextPage() {
+                window.location.href = "Q4.html";
+            }
+            
+            function moveButton() {
+                var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                document.getElementById('noButton').style.left = `${x}px`;
+                document.getElementById('noButton').style.top = `${y}px`;
+            }
+
+        </script> 
+        <script src="../JS/script1.js"></script>
+
+    </body> 
+</html>

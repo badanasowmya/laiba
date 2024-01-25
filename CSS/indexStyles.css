@@ -1,0 +1,60 @@
+@import "fonts_styles.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../PHOTOS/index.jpeg) no-repeat center center/cover;
+  position: relative;
+}
+
+
+* { color:#f3f2f0; text-decoration: none;}
+
+.name{
+  font-family: peach;
+  font-size: 12px; 
+  position: absolute; 
+  top: 50%; 
+  right: 22.3%; 
+  transform: translate(0,-50%);
+}
+
+.welcomeText{
+  position: absolute;
+  top: 72%;
+  left: 11%;
+  font-family: cheri;
+  font-size: 25px;
+
+}
+
+.zoom-in-out-box {
+  cursor: pointer;
+  height: 80px;
+  width: 160px;
+  animation: zoom-in-zoom-out 2s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+.clickMe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  top: 88%; 
+  left: 43%;
+}
