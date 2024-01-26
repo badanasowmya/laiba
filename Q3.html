@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <title></title>
-        <link rel="stylesheet" href="../CSS/Q1Styles.css"> 
-        <link rel="stylesheet" href="../CSS/commonStyles.css"> 
+        <link rel="stylesheet" href="CSS/Q3Styles.css">        
+        <link rel="stylesheet" href="CSS/commonStyles.css"> 
     </head> 
+
     <body>
+
         <div class="container">
-            <div class="textdiv"> </div>
+
+            <div class="textdiv"></div>
+
+            <div >
                 <h1>
-                    <a href="" class="typewrite" data-period="2000" data-type='[ "I know you hate surprises but you might like this. Do you wanna find out what is it ?"]'>
+                    <a href="" id = "Q3font-size" class="typewrite" data-period="2000" data-type='[ "So you not gonna leave without finding out ? It&apos;s your last chance you can still go and save yourself !"]'>
                         <span class="wrap"></span>
                     </a>
-                </h1>   
-            
+                </h1> 
+            </div>
+
             <div class = "buttons">
                 <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
             </div>
+            <!-- <audio controls autoplay>
+				<source src="../SONGS/shadow.mp3" type="audio/mpeg">
+			</audio> -->
         </div>
-        <iframe src="../SONGS/not.wav" allow="autoplay" id="audio" style="display: none;" frameborder="0"></iframe>
-        <audio  id="audio" autoplay >
-            <source src="../SONGS/perfect.mp3" type="audio/mpeg">
-            unsupported
-        </audio>
+
         <script>
+
             function nextPage() {
-                window.location.href = "Q2.html";
+                window.location.href = "Q4.html";
             }
             
             function moveButton() {
@@ -35,12 +42,9 @@
                 document.getElementById('noButton').style.left = `${x}px`;
                 document.getElementById('noButton').style.top = `${y}px`;
             }
-            window.onload=function(){
-                var content=new AudioContext()
-            }
-            var myaudio=document.getElementById("audio").autoplay=true
+
         </script> 
-        <script src="../JS/script1.js"></script>
-       
+        <script src="JS/script.js"></script>
+
     </body> 
 </html>
