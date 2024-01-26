@@ -17,7 +17,7 @@ TxtType.prototype.tick = function() {
     var that = this;
     var delta = 150  
 
-    if (this.txt.endsWith('.') || this.txt.endsWith('?')) {
+    if (this.txt.endsWith('.') || this.txt.endsWith('?') || this.txt.endsWith('!')){
         delta=600
     } 
 

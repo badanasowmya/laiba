@@ -13,9 +13,14 @@ body {
 * { color:#fff; text-decoration: none;}
 
 .textdiv{
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 .buttons {
   margin-left: 20px;
+  margin-top: 50px;
+}
+
+#Q4font-size{
+  font-size: 35px;
 }

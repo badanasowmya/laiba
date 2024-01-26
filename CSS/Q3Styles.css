@@ -17,5 +17,9 @@ body {
 }
 
 .buttons {
-  margin-top: 80px;
+  margin-top: 60px;
+}
+
+#Q3font-size{
+  font-size: 35px;
 }
