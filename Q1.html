@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="CSS/Q1Styles.css"> 
+        <link rel="stylesheet" href="CSS/commonStyles.css"> 
+    </head> 
+    <body>
+        <div class="container">
+            <div class="textdiv"> </div>
+                <h1>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "I know you hate surprises but you might like this. Do you wanna find out what is it ?"]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>   
+            
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            </div>
+        </div>
+
+        <div class="Q1audio">
+            <audio controls autoplay hidden>
+                <source src="SONGS/perfect.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <script>
+            function nextPage() {
+                window.location.href = "Q2.html";
+            }
+            
+            function moveButton() {
+                var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                document.getElementById('noButton').style.left = `${x}px`;
+                document.getElementById('noButton').style.top = `${y}px`;
+            }
+        </script> 
+        <script src="JS/script.js"></script>
+       
+    </body> 
+</html>

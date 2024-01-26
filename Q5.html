@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="CSS/Q5Styles.css">      
+        <link rel="stylesheet" href="CSS/commonStyles.css"> 
+    </head> 
+
+    <body>
+        <div class="container">
+
+            <div class="textdiv">
+                <video autoplay muted loop id="myVideo">
+                    <source src="VIDEOS/scaryVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="text">
+                <h1>
+                    <a href="" id="Q5font-size" class="typewrite" data-period="2000" data-type='["I didn&apos;t do all this just for you to choose NO bitch ! Say yes !"]'>
+                        <span class="wrap"></span>
+                    </a>
+            </div>
+
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            </div>
+
+        </div>
+        
+        <script>
+
+            function nextPage() {
+                window.location.href = "laiba.html";
+            }
+            
+            function moveButton() {
+                var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                document.getElementById('noButton').style.left = `${x}px`;
+                document.getElementById('noButton').style.top = `${y}px`;
+            }
+
+        </script> 
+        <script src="JS/script.js"></script>
+
+    </body> 
+</html>
