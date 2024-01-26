@@ -1,0 +1,25 @@
+@import "fonts_styles.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url(../PHOTOS/Q3.jpg) no-repeat center center/cover;
+}
+
+* { color:#fff; text-decoration: none;}
+
+.textdiv{
+  margin-bottom: 520px;
+}
+
+.buttons {
+  margin-top: 60px;
+}
+
+#Q3font-size{
+  font-size: 35px;
+}

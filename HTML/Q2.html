@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../CSS/Q2Styles.css">
+        <link rel="stylesheet" href="../CSS/commonStyles.css"> 
+    </head> 
+    <body>
+        <div class="container">
+            <div class="textdiv"></div>
+            <div>
+                <h1>
+                    <a href="" id="Q2font-size" class="typewrite" data-period="2000" data-type='[ "You really sure you wanna find out what it is ? Might be something which will give you nightmares !"]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>  
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            </div>
+            <!-- <audio controls autoplay>
+				<source src="../SONGS/IMissYouImSorry.wav" type="audio/mpeg">
+			</audio> -->
+        </div>
+        <script>
+            function nextPage() {
+                window.location.href = "Q3.html";
+            }
+            
+            function moveButton() {
+                var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                document.getElementById('noButton').style.left = `${x}px`;
+                document.getElementById('noButton').style.top = `${y}px`;
+            }
+        </script> 
+       <script src="../JS/script1.js"></script>
+    </body> 
+</html>
