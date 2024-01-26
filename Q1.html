@@ -19,11 +19,13 @@
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
             </div>
         </div>
-        <iframe src="SONGS/not.wav" allow="autoplay" id="audio" style="display: none;" frameborder="0"></iframe>
-        <audio  id="audio" autoplay >
-            <source src="SONGS/perfect.mp3" type="audio/mpeg">
-            unsupported
-        </audio>
+
+        <div class="Q1audio">
+            <audio controls autoplay hidden>
+                <source src="SONGS/perfect.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
         <script>
             function nextPage() {
                 window.location.href = "Q2.html";
@@ -35,10 +37,6 @@
                 document.getElementById('noButton').style.left = `${x}px`;
                 document.getElementById('noButton').style.top = `${y}px`;
             }
-            window.onload=function(){
-                var content=new AudioContext()
-            }
-            var myaudio=document.getElementById("audio").autoplay=true
         </script> 
         <script src="JS/script.js"></script>
        
