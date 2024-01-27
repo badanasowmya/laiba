@@ -51,22 +51,9 @@ body {
 
   #Q1Text {
       font-size: 10px;
-      font-family: akiona;
+      /* font-family: akiona; */
   }
 
-  .btn {
-    padding: 10px 18px;
-    font-size: 12px;
-  }
-  .buttons {
-    margin-top: 50px;
-  }
-  
-  
-
-  .name{
-      visibility: hidden;
-  }
 }
 
 @media only screen and (max-width: 414px) and (max-height: 736px) {
@@ -77,28 +64,13 @@ body {
   }
 
   .textdiv {
-      margin-top: 80px;
+      margin-top: 130px;
   }
 
   #Q1Text {
-      font-size: 13px;
-      font-family: akiona;
+      font-size: 20px;
+      /* font-family: akiona; */
   }
 
-  
-  .btn {
-    padding: 15px 25px;
-    font-size: 14px;
-  }
-  
-  
-  .buttons {
-    margin-top: 50px;
-  }
-
-  .name{
-      visibility: hidden;
-  }
-  
 }
 
