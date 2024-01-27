@@ -98,7 +98,7 @@ body {
 
   .welcomeText{
     font-size: 7px;
-    left: 8%;
+    left: 6%;
   }
 
   .zoom-in-out-box{
@@ -112,8 +112,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute; 
-  top: 72%; 
-  left: 33%;
+  top: 60%; 
+  left: 36%;
 }
 
   .name{
