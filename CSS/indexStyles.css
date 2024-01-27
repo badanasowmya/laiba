@@ -12,21 +12,21 @@ body {
 }
 
 
-* { color:#f3f2f0; text-decoration: none;}
+* { color: #dedede; text-decoration: none;}
 
 .name{
   font-family: peach;
   font-size: 12px; 
   position: absolute; 
-  top: 50%; 
+  top: 42%; 
   right: 23%; 
   transform: translate(0,-50%);
 }
 
 .welcomeText{
   position: absolute;
-  top: 68%;
-  left:12%;
+  top: 60%;
+  left:9%;
   font-family: cheri;
   font-size: 25px;
 
@@ -54,8 +54,8 @@ body {
 
 .clickMe{
   position: absolute; 
-  top: 80%; 
-  left: 41%;
+  top: 72%; 
+  left: 40%;
 }
 
 .Indexaudio{
