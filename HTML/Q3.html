@@ -2,10 +2,9 @@
 <html lang="en">
 
     <head>
-        <title></title>
+        <title>A last chance to save yourself !</title>
         <link rel="stylesheet" href="../CSS/Q3Styles.css">        
         <link rel="stylesheet" href="../CSS/commonStyles.css"> 
-        <link rel="stylesheet" href="../CSS/responsive.css"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head> 
 
@@ -28,7 +27,7 @@
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
             </div>
 
-            <div class="Q3audio">
+            <div class="Q3audio" id="Q3A">
                 <audio controls autoplay hidden loop>
                     <source src="../SONGS/Q3.mpeg" type="audio/mpeg">
                 </audio>
@@ -48,6 +47,9 @@
                 document.getElementById('noButton').style.left = `${x}px`;
                 document.getElementById('noButton').style.top = `${y}px`;
             }
+
+            var audio=document.getElementById("Q3A");
+            audio.volume = 0.2;
 
         </script> 
         <script src="../JS/script.js"></script>

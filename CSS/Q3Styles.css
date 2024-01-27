@@ -13,7 +13,7 @@ body {
 * { color:#fff; text-decoration: none;}
 
 .textdiv{
-  margin-bottom: 520px;
+  margin-bottom: 390px;
 }
 
 .buttons {
@@ -32,8 +32,6 @@ body {
   color: white;
   text-align: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
 
@@ -49,19 +47,9 @@ body {
   }
 
   #Q3Text {
-      font-size: 8px;
-      font-family: akiona;
+      font-size: 20px;
   }
 
-  .btn {
-      padding: 10px 22px;
-      padding: 5px 10px;
-      font-size: 10px;
-  }
-
-  .buttons {
-    margin-top: 50px;
-  }
 }
 
 @media only screen and (max-width: 414px) and (max-height: 736px) {
@@ -76,20 +64,7 @@ body {
   }
 
   #Q3Text {
-      font-size: 700px;
-      font-family: akiona;
-  }
-
-  
-  .btn {
-    padding: 5px 10px;
-    padding: 5px 10px;
-    font-size: 10px;
-  }
-  
-  
-  .buttons {
-    margin-top: 50px;
+      font-size: 20px;
   }
   
 }

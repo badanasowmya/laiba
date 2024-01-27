@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Wanna find out ?</title>
         <link rel="stylesheet" href="../CSS/Q1Styles.css"> 
         <link rel="stylesheet" href="../CSS/commonStyles.css"> 
-        <link rel="stylesheet" href="../CSS/responsive.css"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head> 
     <body>
         <div class="container">
             <div class="textdiv"> </div>
+            <div>
                 <h1>
                     <a href="" id="Q1Text" class="typewrite" data-period="2000" data-type='[ "I know you hate surprises but you might like this. Do you wanna find out what is it ?"]'>
                     <span class="wrap"></span>
                     </a>
                 </h1>   
-            
+            </div>
+                
             <div class = "buttons">
                 <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
             </div>
         </div>
 
-        <div class="Q1audio">
+        <div class="Q1audio" id="Q1A">
             <audio controls autoplay hidden loop>
                 <source src="../SONGS/Q1.mpeg" type="audio/mpeg">
             </audio>
@@ -39,6 +40,10 @@
                 document.getElementById('noButton').style.left = `${x}px`;
                 document.getElementById('noButton').style.top = `${y}px`;
             }
+
+            var audio=document.getElementById("Q1A");
+            audio.volume = 0.2;
+
         </script> 
         <script src="../JS/script.js"></script>
        

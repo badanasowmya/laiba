@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title> Really wanna find out ?</title>
         <link rel="stylesheet" href="../CSS/Q2Styles.css">
         <link rel="stylesheet" href="../CSS/commonStyles.css">
-        <link rel="stylesheet" href="../CSS/responsive.css">   
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head> 
     <body>
@@ -22,7 +21,7 @@
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
             </div>
 
-            <div class="Q2audio">
+            <div class="Q2audio" id="Q2A">
                 <audio controls autoplay hidden loop>
                     <source src="../SONGS/Q2.aac" type="audio/mpeg">
                 </audio>
@@ -40,6 +39,10 @@
                 document.getElementById('noButton').style.left = `${x}px`;
                 document.getElementById('noButton').style.top = `${y}px`;
             }
+
+            var audio=document.getElementById("Q2A");
+            audio.volume = 0.2;
+
         </script> 
        <script src="../JS/script.js"></script>
     </body> 
