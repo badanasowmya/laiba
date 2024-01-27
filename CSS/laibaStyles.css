@@ -13,7 +13,7 @@ body {
   
 * { color:#fff; text-decoration: none;}
 
-#myVideo {
+#present {
     position: fixed;
     right: 0;
     top: -10%;
@@ -30,7 +30,7 @@ body {
         overflow: hidden;
     }    
     
-    #myVideo {
+    #present {
         position: fixed;
         right: 0;
         /* bottom: 0; */
@@ -48,7 +48,7 @@ body {
         overflow: hidden;
     }
 
-    #myVideo {
+    #present {
         position: fixed;
         right: 0;
         /* bottom: 0; */
