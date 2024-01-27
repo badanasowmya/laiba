@@ -12,10 +12,15 @@
     }
     
     .welcomeText{
-        font-size: 20px;
+        font-size: 200px;
     }
 
-    .typewrite {
+    #Q1Text, #Q2Text, #Q3Text, #Q4Text, #Q5Text {
+        font-size: 10px;
+        font-family: akiona;
+    }
+
+    .typewrite{
         font-size: 10px;
         font-family: akiona;
     }
@@ -42,6 +47,11 @@
     .typewrite {
         font-size: 10px;
         font-family: winter;
+    }
+
+    #Q1Text, #Q2Text, #Q3Text, #Q4Text, #Q5Text {
+        font-size: 13px;
+        font-family: akiona;
     }
   
     img {
