@@ -28,7 +28,7 @@
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
             </div>
 
-            <div class="Q3audio">
+            <div class="Q3audio" id="Q3A">
                 <audio controls autoplay hidden loop>
                     <source src="../SONGS/Q3.mpeg" type="audio/mpeg">
                 </audio>
@@ -48,6 +48,9 @@
                 document.getElementById('noButton').style.left = `${x}px`;
                 document.getElementById('noButton').style.top = `${y}px`;
             }
+
+            var audio=document.getElementById("Q3A");
+            audio.volume = 0.2;
 
         </script> 
         <script src="../JS/script.js"></script>

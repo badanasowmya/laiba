@@ -26,7 +26,7 @@
                 <button class="btn" id="noButton" onclick="nextPage()" onclick="moveButton()">No</button>
             </div>
 
-            <div class="Q4audio">
+            <div class="Q4audio" id="Q4A">
                 <audio controls autoplay hidden loop>
                     <source src="../SONGS/Q4.aac" type="audio/mpeg">
                 </audio>
@@ -43,6 +43,9 @@
             function laiba() {
                 window.location.href = "laiba.html";
             }
+
+            var audio=document.getElementById("Q4A");
+            audio.volume = 0.2;
             
         </script> 
         <script src="../JS/script.js"></script>

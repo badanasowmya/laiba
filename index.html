@@ -27,7 +27,7 @@
 				<a href="HTML/Q1.html" ><img class="zoom-in-out-box" src="./PHOTOS/clickHereBlack.png" alt="clickMe"></a>
 			</div>
 
-			<div class="Indexaudio">
+			<div class="Indexaudio" id="index">
 				<audio controls autoplay hidden loop>
 					<source src="SONGS/index.mpeg" type="audio/mpeg">
 				</audio>
@@ -35,6 +35,11 @@
 
 		</div>
 	</body>
+
+	<script>
+		var audio=document.getElementById("index");
+		audio.volume = 0.2;
+	</script>
 
 	<script src="JS/script.js">
 	</script> 
