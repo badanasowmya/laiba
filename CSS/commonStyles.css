@@ -33,14 +33,3 @@
     transition: 0.5s;
 }
 
-
-.typewrite {
-    font-family: peach;
-    font-size: 43px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
