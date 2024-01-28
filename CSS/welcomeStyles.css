@@ -18,14 +18,14 @@ body {
   font-size: 12px; 
   position: absolute; 
   top: 42%; 
-  right: 23%; 
+  right: 22.5%; 
   transform: translate(0,-50%);
 }
 
 .welcomeText{
   position: absolute;
   top: 60%;
-  left:9%;
+  left:11.5%;
   font-family: cheri;
   font-size: 25px;
 
@@ -35,21 +35,8 @@ body {
   cursor: pointer;
   height: 120px;
   width: 200px;
-  /* animation: zoom-in-zoom-out 2s ease infinite; */
 }
 
-/* 
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.5, 1.5);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-} */
 
 
 .clickMe{
@@ -72,7 +59,7 @@ body {
   }
   
   .textdiv{
-      margin-top: 80px;
+      margin-top: 100px;
   }
 
   .zoom-in-out-box{
