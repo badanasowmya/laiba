@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+	<head>
+	<title>Welcome Laiba</title>
+	<link rel="stylesheet" href="../CSS/welcomeStyles.css">  
+	<link rel="stylesheet" href="../CSS/commonStyles.css">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	</head>
+
+	<body>
+		<div class="welcome">
+
+			<div class="name">
+				<h1  style="color: #c9c7c3; ">Laiba</h1>
+			</div>
+
+			<div class="welcomeAudio" id="welcome">
+				<audio controls autoplay hidden loop>
+					<source src="../SONGS/indexMain.mpeg" type="audio/mpeg">
+				</audio>
+			</div>
+
+
+			<div class="welcomeText">
+				<h1>
+					<a href="" class="typewrite" style="font-family: cheri;" data-period="2000" data-type='[ "WELCOME TO A PLACE WHERE DREAMS COME TRUE !"]'>
+						<span class="wrap"></span>
+					</a>
+				</h1>      
+			</div>
+
+			<div class="clickMe" >
+				<a href="../HTML/Q1.html" ><img class="zoom-in-out-box" src="../PHOTOS/clickHereBlack.png" alt="clickMe"></a>
+			</div>
+
+		</div>
+	</body>
+
+	<script>
+		var audio=document.getElementById("welcome");
+		audio.volume = 0.2;
+	</script>
+
+	<script src="../JS/script.js">
+	</script> 
+
+</html>
